@@ -62,7 +62,7 @@ Para desenvolver utilizando o Visual Studio, crie uma aplicação de console em 
 Caso queira utilizar o Visual Studio Code junto com o WSL, siga [esse tutorial] (https://code.visualstudio.com/docs/cpp/config-wsl).
 
 
-Caso queira utilizaro CodeBlocks junto com o MingW, baixe um instalador [nesse link](https://www.codeblocks.org/downloads/binaries/) com o mingw embutido, é a opção mais cômoda.
+Caso queira utilizar o CodeBlocks junto com o MingW, baixe um instalador [nesse link](https://www.codeblocks.org/downloads/binaries/) com o mingw embutido, é a opção mais cômoda.
 
 
 
@@ -128,7 +128,7 @@ Para comentários de mais de uma linha, é necessário sinalizar um início e um
 
 ## Tipos de dados em C
 
-Os tipos de dados em C não mudam, como em Python. Por isso, é bastante importante saber quais são os tipos e o que eles representam. Os **principais** e mais primitivos tipos são definidos na tabela abaixo:
+Os tipos de dados de uma variável em C não podem mudar, como em Python. Por isso, é bastante importante saber quais são os tipos e o que eles representam. Os **principais** e mais primitivos tipos são definidos na tabela abaixo:
 
 
 Tipo de Dado | O que representa | Número de Bits da informação
@@ -379,8 +379,7 @@ O operador ternário pode ser usado para realizar atribuição condicional, ou s
 
 ### Switch/case
 
-Recurso semelhante ao match/case do novíssimo [Python 3.10](https://martinheinz.dev/blog/46), permite a avaliação.
-Ele é utilizado para fazer muitas avaliações ao mesmo tempo.
+Recurso semelhante ao match/case do novíssimo [Python 3.10](https://martinheinz.dev/blog/46), permite a avaliação consecutiva de um valor. Um exemplo clássico é o sistema de telemarketing: quando você liga, o sistema te apresenta um menu onde todas as opções dependem do valor que você digitar no teclado; o switch case funciona justamente para que cada opção possa ser discernida sem utilizar vários if e elses aninhados.
 
 ```c
     // Exemplo de call center
