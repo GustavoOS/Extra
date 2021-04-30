@@ -1,4 +1,4 @@
-# C para programadores em Python
+# C para programadores de Python
 
 C é uma linguagem que foi criada em 1972, muito antes do Python.
 Diferente do Python, é uma linguagem estritamente compilada, feita
@@ -51,19 +51,18 @@ Esse comando gera um arquivo executável. Para executar esse arquivo, rode o com
 ```
 
 ### Windows
-No Windows, pode-se usar alguma virtualização de Linux (como o [MingW](https://terminaldeinformacao.com/2015/10/08/como-instalar-e-configurar-o-gcc-no-windows-mingw/), máquina virtual ou [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install-win10)) para utilizar o G++ ou o GCC, ou ainda utilizar o [Microsoft Visual Studio](https://visualstudio.microsoft.com/pt-br/vs/), que possui o compilador Visual C++.
-
-Para desenvolver utilizando o Visual Studio, crie uma aplicação de console em C/C++. É necessário usar o comando abaixo ao final da função main (veremos o que significa adiante) para que o console (terminal) não seja fechado automaticamente ao final da execução. A própria IDE tem botões específicos para compilar e executar o código.
-
-```c
-    system("pause");
-```
-
-Caso queira utilizar o Visual Studio Code junto com o WSL, siga [esse tutorial] (https://code.visualstudio.com/docs/cpp/config-wsl).
+No Windows, pode-se usar alguma virtualização de Linux (como o [MingW](https://terminaldeinformacao.com/2015/10/08/como-instalar-e-configurar-o-gcc-no-windows-mingw/), máquina virtual ou [WSL](https://docs.microsoft.com/pt-br/windows/wsl/install-win10)) para utilizar o G++ ou o GCC, ou ainda utilizar o Microsoft Visual Studio, que possui o compilador Visual C++.
 
 
 Caso queira utilizar o CodeBlocks junto com o MingW, baixe um instalador [nesse link](https://www.codeblocks.org/downloads/binaries/) com o mingw embutido, é a opção mais cômoda.
 
+Caso queira utilizar o Visual Studio Code junto com o WSL, siga [esse tutorial] (https://code.visualstudio.com/docs/cpp/config-wsl).
+
+Caso queira programar com o Microsoft Visual Studio, baixe [nesse link](https://visualstudio.microsoft.com/pt-br/vs/features/cplusplus/). Para desenvolver utilizando o Visual Studio, crie uma aplicação de console em C/C++. É necessário usar o comando abaixo ao final da função main (veremos o que significa adiante) para que o console (terminal) não seja fechado automaticamente ao final da execução. A própria IDE tem botões específicos para compilar e executar o código.
+
+```c
+    system("pause");
+```
 
 
 ## Hello, World
