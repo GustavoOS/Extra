@@ -826,3 +826,4 @@ int main(void){
     printf("%.0lf^%.0lf = %.0lf\n", base, expoente, resultado);
 }
 ```
+Um valor muito crítico para a linguagem C é o valor `NULL`, que equivale ao `None` no Python. **Cuidado para não acessar o conteúdo de ponteiros de valor NULL** para não resultar no terrível **Segmentation fault**. Só atribua valores a variáveis já declaradas, não assuma o conteúdo delas a menos que haja algum tipo de atribuição de valor.
