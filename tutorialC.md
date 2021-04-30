@@ -791,3 +791,39 @@ int main(void) {
     return 0;
 }
 ```
+
+## Considerações adicionais
+
+Para se comparar duas strings, utilize o `strcmp`, veja um exemplo:
+```c
+#include<stdio.h>
+#include<string.h>
+
+
+int main(void) {
+    char * texto = "olá";
+    char * copia = "olá"; // Troque esse texto por outro para ver o que acontece
+    if(strcmp(texto,copia) == 0) // Quando as strings são iguais, o resultado é 0
+    {
+        printf("Textos Iguais!");
+        return 0;
+    }
+    printf("Textos diferentes");
+    return 1; // Sinalização de erro
+}
+```
+
+Para utilizar exponenciação, utilize a função `pow(base,expoente)` presente na biblioteca `math.h`.
+
+```c
+#include<stdio.h>
+#include<math.h>
+
+int main(void){
+    double base=2, expoente = 10, resultado;
+
+    resultado = pow(base,expoente); // calcula 2^10
+
+    printf("%.0lf^%.0lf = %.0lf\n", base, expoente, resultado);
+}
+```
